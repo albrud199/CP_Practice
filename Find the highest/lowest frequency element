@@ -12,11 +12,11 @@ int main()
     
     map <int , int> m ;
     
-    int mine = 0;
-    int maxf = 0;
-    int minf = n;
-    int maxe = 0;
-    int k, v;
+    int mine = 0; // minimum element
+    int maxf = 0; // maximum frequency
+    int minf = n; // minimum frequency
+    int maxe = 0; // maximum element
+    int k, v; // key & value
     
     for (i = 0 ; i < n ; i++)
     {
